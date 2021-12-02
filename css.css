@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(32, 36, 40);
+    color: rgb(248, 249, 250);
+    font-weight: 300;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+select {
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(108, 117, 125);
+    color: white;
+    appearance: none;
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 4px;
+}
+
+option {
+    font-size: 16px;
+}
+
+.select {
+    position: relative;
+}
+
+.select::after {
+    content: "\f107";
+    position: absolute;
+    top: 8px;
+    right: -66px;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.variantes {
+    display: flex;
+    margin: 0 0 43px;
+}
+
+.variantes div {
+    margin-right: 6%;
+}
+
+input {
+    margin-right: 10px;
+}
+
+textarea {
+    margin: 10px 0;
+    width: 100%;
+    height: 250px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.buttons {
+    margin: 30px 0;
+}
+
+button {
+    font-size: 15px;
+    padding: 9px 14px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+
+.buttons button:first-child,
+.buttons button:last-child {
+    color: white;
+}
+
+.buttons button:first-child {
+    background-color: rgb(21, 115, 71);
+}
+
+.buttons button:first-child:hover {
+    background-color: rgb(10, 87, 51);
+}
+
+.buttons button:nth-child(2) {
+    background-color: rgb(255, 202, 44);
+}
+
+.buttons button:nth-child(2):hover {
+    background-color: #f7e439;
+}
+
+.buttons button:nth-child(3) {
+    background-color: rgb(49, 210, 242);
+}
+
+.buttons button:nth-child(3):hover {
+    background-color: rgb(35, 184, 214);
+}
+
+.buttons button:last-child {
+    background-color: rgb(187, 45, 59);
+}
+
+.buttons button:last-child:hover {
+    background-color: rgb(148, 30, 42);
+}
